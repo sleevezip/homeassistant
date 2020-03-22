@@ -1,0 +1,11 @@
+platform: toon_smartmeter
+host: !secret climate_toon_host
+port: !secret climate_toon_port
+scan_interval: 10
+resources:
+  - gasused
+  - gasusedcnt
+  - elecusageflowlow
+  - elecusagecntlow
+  - elecusageflowhigh
+  - elecusagecnthigh

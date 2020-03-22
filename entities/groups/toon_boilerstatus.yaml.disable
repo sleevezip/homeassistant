@@ -1,0 +1,10 @@
+Boiler Status:
+  name: Boiler Status test
+    entities:
+    - sensor.toon_boiler_intemp
+    - sensor.toon_boiler_outtemp
+    - sensor.toon_boiler_setpoint
+    - sensor.toon_boiler_pressure
+    - sensor.toon_boiler_modulation
+    - sensor.toon_room_temp
+    - sensor.toon_room_temp_setpoint

@@ -1,0 +1,4 @@
+type: 'custom:simple-thermostat'
+entity: climate.toon_thermostat
+control:
+  - preset

@@ -1,0 +1,35 @@
+path: climate
+title: Climate
+icon: mdi:home-thermometer-outline
+cards:
+  - type: custom:simple-thermostat
+    title: Thermostaat
+    entity: climate.toon_thermostat
+    control:
+      - preset
+  - type: sensor
+    title: Electricity last 24h
+    entity: sensor.toon_p1_power_use_high
+    name: Electricity last 24h
+    icon: mdi:flash
+    graph: line
+    hours_to_show: 24
+    detail: 2
+  - type: entities
+    title: Gas info
+    entities:
+      - entity: sensor.toon_gas_used_last_hour
+        name: Gas last hour
+      - entity: sensor.toon_gas_used_cnt
+        name: Total gas used today
+  - type: entities
+    title: Electricity info
+    entities:
+      - entity: sensor.toon_p1_power_use_cnt_low
+        name: Total electricity low
+      - entity: sensor.toon_p1_power_use_cnt_high
+        name: Total electricity peak
+      - entity: sensor.toon_p1_power_use_low
+        name: Current electricity low
+      - entity: sensor.toon_p1_power_use_high
+        name: Current electricity peak
