@@ -1,0 +1,8 @@
+# The pi_hole integration allows you to retrieve statistics and interact with a Pi-hole system.
+# 
+# https://www.home-assistant.io/integrations/pi_hole/
+#
+# I use this integration just to retrieve the Pihole statistics. In order to interact I use an iFrame which points towards the web interface
+
+pi_hole:
+  - host: !secret pihole_url

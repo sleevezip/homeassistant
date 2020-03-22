@@ -1,0 +1,5 @@
+platform: toon_climate
+name: TOON Thermostat
+host: !secret climate_toon_host
+port: !secret climate_toon_port
+scan_interval: 10

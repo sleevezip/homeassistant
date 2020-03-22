@@ -1,0 +1,6 @@
+# Lovelace simple thermostat
+#
+# https://github.com/nervetattoo/simple-thermostat
+#
+url: /community_plugin/simple-thermostat/simple-thermostat.js
+type: module

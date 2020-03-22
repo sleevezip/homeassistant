@@ -1,0 +1,5 @@
+platform: samsungtv_tizen
+name: livingroom_tv
+host: !secret media_player_samsungtv_livingroom_host
+port: 8002
+mac: !secret media_player_samsungtv_livingroom_mac

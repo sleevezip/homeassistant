@@ -1,0 +1,12 @@
+platform: toon_boilerstatus
+host: !secret climate_toon_host
+port: !secret climate_toon_port
+scan_interval: 10
+resources:
+  - boilersetpoint
+  - boilerintemp
+  - boilerouttemp
+  - boilerpressure
+  - boilermodulationlevel
+  - roomtemp
+  - roomtempsetpoint
